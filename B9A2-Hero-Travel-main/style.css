@@ -19,6 +19,13 @@ span{
     font-weight: 700;
 }
 
+.section-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
 /* header nav section */
 .header-icon{
     display: flex;
@@ -64,28 +71,36 @@ a{
 #check{
     display: none;
 }
+
+
 /* styles for heading section */
 .section-for-heading{
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
+
 .heading-section{
-    width: 1170px;
-    height: 500px;
+    /* width: 1170px;
+    height: 500px; */
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .travel-section{
     text-align: center;
     align-items: center;
     padding: 50px 180px;
 }
+
 .heading-title{
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
 }
+
 .heading-description{
     color: #FFF;
     text-align: center;
@@ -94,6 +109,7 @@ a{
     line-height: 26px;
     margin-bottom: 50px;
 }
+
 .heading-form{
     display: inline-flex;
     margin-bottom: 100px;
@@ -103,6 +119,7 @@ a{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
 }
+
 .heading-form input[type="text"]{
     width: 174px;
     height: 52px;
@@ -110,6 +127,7 @@ a{
     background: #FFF;
     border: none;
 }
+
 input::placeholder{
     color: rgba(19, 19, 24, 0.50);
     text-align: center;
@@ -129,9 +147,34 @@ select{
     border: none;
 }
 
+/* styles for tours section */
+.section-of-tours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tours-section{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.tours-heading-section{
+    width: 400px;
+    height: 500px;
+}
+.tours-heading-description-text{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
 
 
 
+
+        /* media response */
 
 @media (max-width: 600px) {
     .nav-ul {
@@ -157,7 +200,43 @@ select{
     #check:checked + .checkbtn ~ .nav-ul {
         display: flex;
     }
+    /* heading section response */
     .section-for-heading{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);  /*i need to response this secction*/
+    }
+    .heading-section{
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .heading-title{
+        text-align: center;
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .heading-description{
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px
+    }
+    .heading-form{
+        text-align: center;
+        display: flex;
+        width: 287px;
+        padding: 16px;
         flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    /* tours responsive */
+    .tours-section{
+        flex-direction: column;
+        margin-bottom: 20px;
     }
 }
