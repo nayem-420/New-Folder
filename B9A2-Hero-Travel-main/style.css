@@ -161,7 +161,6 @@ select{
     align-items: center;
 }
 .tours-heading-section{
-    width: 400px;
     height: 500px;
 }
 .tours-heading-description-text{
@@ -169,6 +168,334 @@ select{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+/* destination section */
+
+.destination-section{
+    text-align: center;
+    margin-top: 50px;
+}
+.maldives{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+}
+#images-1{
+    width: 572px;
+    height: 300px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+#images-2{
+    width: 572px;
+    height: 300px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 8.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.kashmir{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 20px;
+}
+.class-1{
+    width: 374px;
+    height: 286px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.class-2{
+    width: 474px;
+    height: 286px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.class-3{
+    width: 274px;
+    height: 286px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.bd-1{
+    width: 473px;
+    height: 300px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.bd-2{
+    width: 673px;
+    height: 300px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.destination-img{
+    text-align: center;
+    margin: 50px 135px;
+}
+
+
+
+/* why-choose-container section styles */
+.why-choose{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.why-choose-container{
+    display: flex;
+    margin: 24px 135px;
+    gap: 30px;
+    justify-content: center;
+}
+.common-container{
+    width: 573px;
+    border-radius: 16px;
+    padding: 30px;
+}
+.div-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#hotel-container{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+#service-container{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+#div-container{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+/* optional section work */
+.optional-section{
+    text-align: center;
+}
+.optional-section-img{
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: url('../B9A2-Hero-Travel-main/Images/Group\ 39.png'), lightgray 50% / cover no-repeat;
+    margin: 50px 135px;
+}
+.section-for-work-1, .section-for-work-3{
+    width: 579px;
+    /* height: 389px; */
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 20px;
+    margin: 50px 50px 50px 530px;
+}
+.section-for-work-2{
+    width: 579px;
+    /* height: 389px; */
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 20px;
+    margin: 50px 530px 50px 50px;
+}
+.titme-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.time img {
+    margin-right: 5px; 
+}
+.color-text{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.place{
+    display: flex;
+    justify-content: space-between;
+}
+.place-image{
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%), url('Images/Rectangle\ 10.png') no-repeat;
+    background-size: cover;
+}
+.background{
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    padding: 100px 167px;
+}
+.another-div{
+    display: flex;
+    justify-content: space-between;
+}
+.place-section-image{
+    color: #FFF;
+}
+.hr-with-image {
+    width: 10%;
+    height: 2px;
+    background: url('Images/Group\ 7.png') repeat-x left;
+    border-radius: 8px;
+} 
+
+/* section for newsletter container */
+.newsletter-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 135px;
+}
+
+.newsletter-img{
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    background: url('Images/Rectangle\ 8\ \(1\).png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.newsletter-border{
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-19.628deg);
+    text-align: center;
+    position: absolute;
+}
+.travel{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+.save{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+.newsletter-section{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+.newsletter-section input[type="text"], .newsletter-section input[type="email"], .newsletter-section input[type="submit"]{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    display: block;
+    width: 393px;
+    height: 52px;
+    margin-bottom: 20px;
+    border: none;
+}
+.newsletter-section input[type="submit"]{
+    background: #FF5400;
+    color: #FFF;
+}
+
+/* optional section styles */
+.optional-work{
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%), url('Images/download.jpeg') no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin: 100px 135px;
+    text-align: center;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer section styles */
+.footer-section{
+    background: rgba(19, 19, 24, 0.05);
+}
+.nav-section{
+    display: flex;
+}
+.footer-section .nav-section{
+    justify-content: center;
+}
+.footer-description-section{
+    display: flex;
+    justify-content: center;
+}
+.footer-description{
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.social-section-icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+}
+
+
+.hide{
+    display: none;
 }
 
 
@@ -238,5 +565,20 @@ select{
     .tours-section{
         flex-direction: column;
         margin-bottom: 20px;
+    }
+
+    .maldives{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .kashmir{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-section-btn{
+        margin-bottom: 10px;
+    }
+    .place{
+        flex-direction: column;
     }
 }
